@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Creative Email Template</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(to right, #2EB5E5, #4FD9A6);
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .header p {
+            margin: 5px 0 0;
+            font-size: 14px;
+        }
+
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+        .section h2 {
+            color: #333333;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .section p {
+            color: #555555;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .features .feature {
+            display: flex;
+            align-items: center;
+            text-align: left;
+        }
+        .features .feature img {
+            width: 100px;
+            height: 100px;
+            margin-right: 15px;
+            border-radius: 10px;
+        }
+        .features .feature p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .new {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        .new h2 {
+            margin-bottom: 20px;
+        }
+        .new .products {
+            display: inline-block;
+            width: 32%;
+            text-align: center;
+            margin: 0 1%;
+        }
+        .new .products img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        .new .products p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .footer {
+            background-color: #4FD9A6;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            color: white;
+        }
+        @media (max-width: 600px) {
+            .new .products {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <h1>ZARO</h1>
+            <p>Explore Our Latest and Trending collections</p>
+        </div>
+        <div class="section">
+            <h2>
+                What we sell?
+            </h2>
+            <p>We have various collections of trending cloths, shoes, and accessories in best prices and we also have luxury products</p>
+            <div class="features">
+                <div class="feature">
+                    <img src="dress.webp" alt="Icon">
+                    <p>Dress Collections</p>
+                </div>
+                <div class="feature">
+                    <img src="shoe.webp" alt="Icon">
+                    <p>Shoes</p>
+                </div>
+                <div class="feature">
+                    <img src="accessories.jpg" alt="Icon">
+                    <p>Acessories</p>
+                </div>
+            </div>
+        </div>
+        <div class="new">
+            <h2>What's New?</h2>
+            <div class="products">
+                <img src="rarerabbit.png" alt="Service Icon">
+                <p>Rare Cheetah</p>
+                <p>Best ever shirt product ever released</p>
+            </div>
+            <div class="products">
+                <img src="bike.jpg" alt="Service Icon">
+                <p>Bikee Shoes</p>
+                <p>You have your own prime to walk with it</p>
+            </div>
+            <div class="products">
+                <img src="adidas.jpg" alt="Service Icon">
+                <p>Adibas collections</p>
+                <p>Get Genz with these collections</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; ZARO 2024. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
