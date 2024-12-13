@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e6e9f0, #eef1f5);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .card {
+    background: linear-gradient(135deg, #2ad4ee, #e764c4);;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .card h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .image img {
+    width: 100%;
+    max-width: 200px;
+    margin: 20px 0;
+  }
+  
+  .subtext {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0;
+  }
+  
+  .social-icons a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .or-text {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .signup-button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .signup-button:hover {
+    background: #444;
+  }
+  
+  .login-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .login-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-text a:hover {
+    text-decoration: underline;
+  }
+  
